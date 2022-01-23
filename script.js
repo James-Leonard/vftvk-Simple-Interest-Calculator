@@ -11,7 +11,7 @@ function compute()
 
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
-    var interest = principal * years * rate / 1000;
+    var interest = principal * years * rate / 100;
 
     var dateNow = new Date();
     var yearNow = parseInt(dateNow.getFullYear()) + parseInt(years);
